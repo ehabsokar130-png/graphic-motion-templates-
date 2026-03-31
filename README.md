@@ -30,42 +30,43 @@ No package to install. No wrapper. Just copy and go. Works with Remotion 4.x, Re
 
 ### SaaS & Product
 
-https://github.com/user-attachments/assets/placeholder-saas-hero
-
-https://github.com/user-attachments/assets/placeholder-feature-showcase
-
-> The videos above are placeholders — see below for every template with source code.
-
-**SaaS Hero** · **Feature Showcase** · **Modal Explainer** · **Pricing Comparison** · **Onboarding Flow** · **UI Walkthrough** · **Screen Showcase** · **Changelog**
-
-### Text Animations
-
-**Gradient Text** · **Typewriter Reveal** · **Bold Text Punch** · **Spring Scale In** · **Fade Slide Up** · **Staggered Words**
+<p>
+  <img src="public/gifs/saas-hero.gif" width="49%" alt="Remotion SaaS hero template" />
+  <img src="public/gifs/changelog.gif" width="49%" alt="Remotion changelog template" />
+</p>
 
 ### Data & Metrics
 
-**Metric Card** · **Stats Dashboard** · **Bar Chart Reveal** · **Stock Ticker** · **Portfolio Breakdown** · **Day Summary**
+<p>
+  <img src="public/gifs/metric-card.gif" width="49%" alt="Remotion metric card with rolling counter and sparkline" />
+  <img src="public/gifs/sales-card.gif" width="49%" alt="Remotion sales card with revenue counter" />
+</p>
 
-### Social & Launch
+### Text & Animation
 
-**Social Post** · **Product Hunt** · **Milestone Counter** · **Testimonial Card** · **Profile Card** · **Meme Card** · **Launch Day** · **Collaboration**
+<p>
+  <img src="public/gifs/gradient-text.gif" width="49%" alt="Remotion gradient text animation" />
+  <img src="public/gifs/launch-day.gif" width="49%" alt="Remotion launch day announcement template" />
+</p>
 
-### Branding & Product
+### Social & Community
 
-**Logo Reveal** · **Product Reveal** · **Toggle Switch** · **Bento Grid** · **Before & After** · **App Feature Callout** · **Drag & Drop Demo**
+<p>
+  <img src="public/gifs/social-post.gif" width="49%" alt="Remotion social post card with like counter" />
+  <img src="public/gifs/product-hunt.gif" width="49%" alt="Remotion Product Hunt celebration template" />
+</p>
 
-### E-commerce & Finance
+<p>
+  <img src="public/gifs/testimonial-card.gif" width="49%" alt="Remotion testimonial card with quote" />
+  <img src="public/gifs/milestone-counter.gif" width="49%" alt="Remotion milestone counter with emoji" />
+</p>
 
-**Sales Card** · **Cart Animation** · **Discount Countdown** · **Payment Flow**
+### Layout & Comparison
 
-### More Categories
-
-**Real Estate** — Property Tour, Listing Card, Virtual Walkthrough
-**Healthcare** — Patient Journey, Appointment Booking, Wellness Stats
-**Recruitment** — Job Posting, Team Intro, Culture Reel
-**Events** — Countdown Timer, Agenda Reveal, Speaker Card
-**Gaming** — Achievement Unlock, Leaderboard, Level Up
-**Education** — Lesson Intro, Flashcard Flip, Quiz Result
+<p>
+  <img src="public/gifs/bento-grid.gif" width="49%" alt="Remotion bento grid layout template" />
+  <img src="public/gifs/before-after.gif" width="49%" alt="Remotion before and after comparison template" />
+</p>
 
 ---
 
@@ -123,13 +124,10 @@ Every template ships with 6 visual styles. Same animation, different look.
 
 ```bash
 # Copy a template into your Remotion project
-cp src/templates/fade-slide-up/Composition.tsx your-project/src/
+cp src/templates/gradient-text/Composition.tsx your-project/src/
 
-# Register it in Root.tsx
-import { FadeSlideUp } from './Composition'
-
-# Render
-npx remotion render src/index.ts FadeSlideUp out/video.mp4
+# Register it in Root.tsx and render
+npx remotion render src/index.ts GradientText out/video.mp4
 ```
 
 Each template is one `.tsx` file. No dependencies beyond Remotion and React.
@@ -137,7 +135,7 @@ Each template is one `.tsx` file. No dependencies beyond Remotion and React.
 ### Render all previews
 
 ```bash
-node remotion/render.mjs              # render everything
+node remotion/render.mjs                  # render everything
 node remotion/render.mjs --skip-existing  # only new templates
 ```
 
