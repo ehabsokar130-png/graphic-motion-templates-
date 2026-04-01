@@ -5,7 +5,7 @@
 <h1 align="center">Locomotion</h1>
 
 <p align="center">
-  <strong>62 free Remotion templates. Copy the code, edit the props, render the video.</strong><br/>
+  <strong>67 free Remotion templates. Copy the code, edit the props, render the video.</strong><br/>
   The largest collection of Remotion examples for React video.
 </p>
 
@@ -20,7 +20,7 @@
 
 ## Remotion Templates That Actually Look Good
 
-Most Remotion examples are bare-bones demos. Locomotion is **62 production-quality templates** you copy into any React project and render right away. Each one is a single `.tsx` file with editable props for text, colors, and content.
+Most Remotion examples are bare-bones demos. Locomotion is **67 production-quality templates** you copy into any React project and render right away. Each one is a single `.tsx` file with editable props for text, colors, and content.
 
 No package to install. No wrapper. Just copy and go. Works with Remotion 4.x, React 19, and TypeScript.
 
@@ -76,7 +76,7 @@ Build full videos without code. [Locomotion Studio](https://locomotion.pro/studi
 
 **Drag a template onto the timeline. Edit the text. Copy the code.**
 
-- **Drag and drop** — browse 62 templates, click or drag to add
+- **Drag and drop** — browse 67 templates, click or drag to add
 - **Timeline** — visual playhead, scene cards with duration and transitions
 - **Live preview** — Remotion Player updates in real-time
 - **Remotion prompt gallery** — describe the video you want, AI builds it
@@ -158,6 +158,6 @@ Remotion templates, Remotion examples, Remotion animations, React video template
 ---
 
 <p align="center">
-  <strong>62 templates · 6 styles · AI editor · free to use</strong><br/>
+  <strong>67 templates · 6 styles · AI editor · free to use</strong><br/>
   <a href="https://locomotion.pro">locomotion.pro</a>
 </p>
